@@ -13,6 +13,13 @@
 		48022E6C1CDCE23A00F567B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48022E6B1CDCE23A00F567B7 /* Assets.xcassets */; };
 		48022E6F1CDCE23A00F567B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48022E6D1CDCE23A00F567B7 /* LaunchScreen.storyboard */; };
 		48022E7A1CDCE57400F567B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48022E791CDCE57400F567B7 /* HomeViewController.swift */; };
+		48DF9E5D1CDCFC1C008E8334 /* CallCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E5C1CDCFC1C008E8334 /* CallCloudViewController.swift */; };
+		48DF9E5F1CDCFC7C008E8334 /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */; };
+		48DF9E611CDCFCA6008E8334 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */; };
+		48DF9E631CDCFCC3008E8334 /* DataBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */; };
+		48DF9E651CDCFCF0008E8334 /* NaticeAppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */; };
+		48DF9E671CDCFD14008E8334 /* CloudIntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */; };
+		48DF9E691CDCFD2B008E8334 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */; };
 		A868916B5ED71BD1FB309B26 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADCF9C1A32DD65FC7417FBC /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +32,13 @@
 		48022E6E1CDCE23A00F567B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48022E701CDCE23A00F567B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48022E791CDCE57400F567B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48DF9E5C1CDCFC1C008E8334 /* CallCloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallCloudViewController.swift; sourceTree = "<group>"; };
+		48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
+		48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBrowserViewController.swift; sourceTree = "<group>"; };
+		48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaticeAppInfoViewController.swift; sourceTree = "<group>"; };
+		48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudIntegrationViewController.swift; sourceTree = "<group>"; };
+		48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		4B7C3F63DC392B4D7613C071 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		842E20DD4E12A4FBB0AB84F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FADCF9C1A32DD65FC7417FBC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,10 +88,17 @@
 				48022E641CDCE23A00F567B7 /* AppDelegate.swift */,
 				48022E661CDCE23A00F567B7 /* ViewController.swift */,
 				48022E681CDCE23A00F567B7 /* Main.storyboard */,
+				48022E791CDCE57400F567B7 /* HomeViewController.swift */,
+				48DF9E5C1CDCFC1C008E8334 /* CallCloudViewController.swift */,
+				48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */,
+				48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */,
+				48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */,
+				48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */,
+				48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */,
+				48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */,
 				48022E6B1CDCE23A00F567B7 /* Assets.xcassets */,
 				48022E6D1CDCE23A00F567B7 /* LaunchScreen.storyboard */,
 				48022E701CDCE23A00F567B7 /* Info.plist */,
-				48022E791CDCE57400F567B7 /* HomeViewController.swift */,
 			);
 			path = "welcome-ios-swift";
 			sourceTree = "<group>";
@@ -213,9 +234,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DF9E5F1CDCFC7C008E8334 /* PushNotificationViewController.swift in Sources */,
+				48DF9E691CDCFD2B008E8334 /* StatisticsViewController.swift in Sources */,
 				48022E671CDCE23A00F567B7 /* ViewController.swift in Sources */,
 				48022E651CDCE23A00F567B7 /* AppDelegate.swift in Sources */,
+				48DF9E671CDCFD14008E8334 /* CloudIntegrationViewController.swift in Sources */,
+				48DF9E611CDCFCA6008E8334 /* LocationViewController.swift in Sources */,
+				48DF9E651CDCFCF0008E8334 /* NaticeAppInfoViewController.swift in Sources */,
+				48DF9E5D1CDCFC1C008E8334 /* CallCloudViewController.swift in Sources */,
 				48022E7A1CDCE57400F567B7 /* HomeViewController.swift in Sources */,
+				48DF9E631CDCFCC3008E8334 /* DataBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -318,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

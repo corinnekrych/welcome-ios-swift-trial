@@ -1,7 +1,7 @@
 import UIKit
 import SWRevealViewController
 
-class HomeViewController: UIViewController {
+class SatisticsViewController: UIViewController {
     @IBOutlet var menuButton:UIBarButtonItem!
     
     override func viewDidLoad() {
@@ -17,6 +17,4 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    
 }

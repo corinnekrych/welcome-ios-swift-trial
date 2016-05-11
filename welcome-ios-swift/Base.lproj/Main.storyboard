@@ -83,37 +83,49 @@
                                                     <constraint firstAttribute="height" constant="220" id="lXd-AG-IpO"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDZ-rd-Wwj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDZ-rd-Wwj" userLabel="CloudButton">
                                                 <rect key="frame" x="16" y="253" width="140" height="140"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="VcZ-Yg-mn1"/>
                                                     <constraint firstAttribute="height" constant="140" id="cL6-fU-7Wb"/>
                                                 </constraints>
                                                 <state key="normal" image="home_cloud"/>
+                                                <connections>
+                                                    <segue destination="eKs-WQ-qtQ" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ELS-cG-dzA"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQi-gf-hUl">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQi-gf-hUl" userLabel="LocationButton">
                                                 <rect key="frame" x="16" y="423" width="140" height="140"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="140" id="5Cl-hX-2Qw"/>
                                                     <constraint firstAttribute="width" constant="140" id="5bM-qr-qyv"/>
                                                 </constraints>
                                                 <state key="normal" image="home_location"/>
+                                                <connections>
+                                                    <segue destination="WWq-qN-k16" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="QjT-Bs-cCP"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ity-7h-o3m">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ity-7h-o3m" userLabel="DataBrowserButton">
                                                 <rect key="frame" x="444" y="423" width="140" height="140"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="VNq-5C-0fB"/>
                                                     <constraint firstAttribute="height" constant="140" id="jvm-Tg-1oF"/>
                                                 </constraints>
                                                 <state key="normal" image="home_data"/>
+                                                <connections>
+                                                    <segue destination="079-2p-EPP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="8rH-YT-fIl"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVr-5W-eU9">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVr-5W-eU9" userLabel="PushNotificationButton">
                                                 <rect key="frame" x="444" y="253" width="140" height="140"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="140" id="KbF-m0-k1y"/>
                                                     <constraint firstAttribute="height" constant="140" id="Pqy-8l-dko"/>
                                                 </constraints>
                                                 <state key="normal" image="home_push"/>
+                                                <connections>
+                                                    <segue destination="nXt-GS-878" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="9Jf-sg-yZS"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud Action" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgl-FC-qdb">
                                                 <rect key="frame" x="28" y="395" width="116" height="24"/>
@@ -1113,5 +1125,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="49Y-WX-L4u"/>
+        <segue reference="8rH-YT-fIl"/>
+        <segue reference="9Jf-sg-yZS"/>
+        <segue reference="QjT-Bs-cCP"/>
+        <segue reference="ELS-cG-dzA"/>
     </inferredMetricsTieBreakers>
 </document>

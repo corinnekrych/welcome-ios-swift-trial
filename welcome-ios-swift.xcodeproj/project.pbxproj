@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		48022E651CDCE23A00F567B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48022E641CDCE23A00F567B7 /* AppDelegate.swift */; };
-		48022E671CDCE23A00F567B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48022E661CDCE23A00F567B7 /* ViewController.swift */; };
 		48022E6A1CDCE23A00F567B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48022E681CDCE23A00F567B7 /* Main.storyboard */; };
 		48022E6C1CDCE23A00F567B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48022E6B1CDCE23A00F567B7 /* Assets.xcassets */; };
 		48022E6F1CDCE23A00F567B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48022E6D1CDCE23A00F567B7 /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		48022E611CDCE23A00F567B7 /* welcome-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "welcome-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48022E641CDCE23A00F567B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48022E661CDCE23A00F567B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48022E691CDCE23A00F567B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48022E6B1CDCE23A00F567B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48022E6E1CDCE23A00F567B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				48022E641CDCE23A00F567B7 /* AppDelegate.swift */,
-				48022E661CDCE23A00F567B7 /* ViewController.swift */,
 				48022E681CDCE23A00F567B7 /* Main.storyboard */,
 				48022E791CDCE57400F567B7 /* HomeViewController.swift */,
 				48DF9E5C1CDCFC1C008E8334 /* CallCloudViewController.swift */,
@@ -236,7 +233,6 @@
 			files = (
 				48DF9E5F1CDCFC7C008E8334 /* PushNotificationViewController.swift in Sources */,
 				48DF9E691CDCFD2B008E8334 /* StatisticsViewController.swift in Sources */,
-				48022E671CDCE23A00F567B7 /* ViewController.swift in Sources */,
 				48022E651CDCE23A00F567B7 /* AppDelegate.swift in Sources */,
 				48DF9E671CDCFD14008E8334 /* CloudIntegrationViewController.swift in Sources */,
 				48DF9E611CDCFCA6008E8334 /* LocationViewController.swift in Sources */,

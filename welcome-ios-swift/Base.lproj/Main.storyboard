@@ -452,6 +452,9 @@
                                     <constraint firstAttribute="height" constant="50" id="UkZ-QK-5Xp"/>
                                 </constraints>
                                 <state key="normal" title="Call Cloud"/>
+                                <connections>
+                                    <action selector="callcloud:" destination="kWI-ZV-bx2" eventType="touchUpInside" id="Wen-lY-3by"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Response" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XyG-H9-G9L">
                                 <rect key="frame" x="20" y="190" width="560" height="410"/>
@@ -478,7 +481,9 @@
                         <barButtonItem key="leftBarButtonItem" image="menu" id="cRS-zc-6Nf"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="cloudButton" destination="dDP-sU-bfZ" id="LlN-Hr-AbJ"/>
                         <outlet property="menuButton" destination="cRS-zc-6Nf" id="BaU-3Q-nHR"/>
+                        <outlet property="result" destination="XyG-H9-G9L" id="AD3-rS-7YI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5N8-5x-PJc" userLabel="First Responder" sceneMemberID="firstResponder"/>

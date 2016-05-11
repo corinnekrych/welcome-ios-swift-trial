@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48003A191CE364B800093E0B /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48003A181CE364B800093E0B /* fhconfig.plist */; };
 		48022E651CDCE23A00F567B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48022E641CDCE23A00F567B7 /* AppDelegate.swift */; };
 		48022E6A1CDCE23A00F567B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48022E681CDCE23A00F567B7 /* Main.storyboard */; };
 		48022E6C1CDCE23A00F567B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48022E6B1CDCE23A00F567B7 /* Assets.xcassets */; };
@@ -23,12 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48003A181CE364B800093E0B /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		48022E611CDCE23A00F567B7 /* welcome-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "welcome-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48022E641CDCE23A00F567B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48022E691CDCE23A00F567B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48022E6B1CDCE23A00F567B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48022E6E1CDCE23A00F567B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		48022E701CDCE23A00F567B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48022E701CDCE23A00F567B7 /* welcome-ios-swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "welcome-ios-swift-Info.plist"; sourceTree = "<group>"; };
 		48022E791CDCE57400F567B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48DF9E5C1CDCFC1C008E8334 /* CallCloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallCloudViewController.swift; sourceTree = "<group>"; };
 		48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +97,8 @@
 				48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */,
 				48022E6B1CDCE23A00F567B7 /* Assets.xcassets */,
 				48022E6D1CDCE23A00F567B7 /* LaunchScreen.storyboard */,
-				48022E701CDCE23A00F567B7 /* Info.plist */,
+				48022E701CDCE23A00F567B7 /* welcome-ios-swift-Info.plist */,
+				48003A181CE364B800093E0B /* fhconfig.plist */,
 			);
 			path = "welcome-ios-swift";
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48003A191CE364B800093E0B /* fhconfig.plist in Resources */,
 				48022E6F1CDCE23A00F567B7 /* LaunchScreen.storyboard in Resources */,
 				48022E6C1CDCE23A00F567B7 /* Assets.xcassets in Resources */,
 				48022E6A1CDCE23A00F567B7 /* Main.storyboard in Resources */,
@@ -355,7 +359,7 @@
 			baseConfigurationReference = 842E20DD4E12A4FBB0AB84F0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "welcome-ios-swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/welcome-ios-swift/welcome-ios-swift-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.feedhenry.welcome-ios-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,7 +371,7 @@
 			baseConfigurationReference = 4B7C3F63DC392B4D7613C071 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "welcome-ios-swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/welcome-ios-swift/welcome-ios-swift-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.feedhenry.welcome-ios-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";

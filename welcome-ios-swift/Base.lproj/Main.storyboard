@@ -40,7 +40,7 @@
                     <view key="view" contentMode="scaleToFill" id="Wo8-a3-wr0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VzP-eZ-vdU">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="179-Uj-Pc6"/>
@@ -308,6 +308,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jDH-dk-CnK" firstAttribute="trailing" secondItem="DxU-ZO-5BV" secondAttribute="trailingMargin" id="7EK-b7-nB2"/>
                             <constraint firstItem="dDP-sU-bfZ" firstAttribute="leading" secondItem="DxU-ZO-5BV" secondAttribute="leadingMargin" id="GWK-0N-zKH"/>
@@ -368,6 +369,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="huX-FX-YUw" firstAttribute="centerX" secondItem="dvf-5h-OWM" secondAttribute="centerX" id="1Xv-R0-EVS"/>
                             <constraint firstItem="huX-FX-YUw" firstAttribute="centerY" secondItem="dvf-5h-OWM" secondAttribute="centerY" id="t0M-vu-TxG"/>
@@ -452,6 +454,7 @@
                                 <state key="normal" title="Get Weather"/>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="uOr-CX-5Uz" secondAttribute="trailing" id="0Fd-fh-KzQ"/>
                             <constraint firstItem="MbC-TX-U2q" firstAttribute="leading" secondItem="k4p-dD-TY2" secondAttribute="leadingMargin" id="2e7-7u-fMh"/>
@@ -532,6 +535,7 @@
                                 <state key="normal" title="Save"/>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jNG-7X-1MB" firstAttribute="trailing" secondItem="iyb-zV-v18" secondAttribute="trailingMargin" id="0qD-kH-qkk"/>
                             <constraint firstItem="SGe-4T-y2v" firstAttribute="top" secondItem="jNG-7X-1MB" secondAttribute="bottom" constant="8" symbolic="YES" id="1Fj-M7-6Ea"/>
@@ -655,6 +659,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RVw-dL-glI" firstAttribute="top" secondItem="L3c-1Q-ZS6" secondAttribute="bottom" constant="8" symbolic="YES" id="3Dz-uW-dsd"/>
                             <constraint firstItem="T2w-uX-7wI" firstAttribute="top" secondItem="NNi-D0-2ih" secondAttribute="bottom" constant="19" id="4Yc-rN-NMq"/>
@@ -819,6 +824,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="emx-kz-6i0" firstAttribute="top" secondItem="KzX-fG-zHR" secondAttribute="bottom" constant="30" id="3mU-fr-2S9"/>
                             <constraint firstItem="7Ew-li-Kp1" firstAttribute="centerX" secondItem="N5e-d6-klr" secondAttribute="centerX" id="4zy-Dt-KbL"/>
@@ -878,7 +884,7 @@
             </objects>
             <point key="canvasLocation" x="1583" y="3722"/>
         </scene>
-        <!--Satistics View Controller-->
+        <!--Status-->
         <scene sceneID="2Dn-fh-lAF">
             <objects>
                 <viewController id="vZ4-Hg-I9L" customClass="SatisticsViewController" customModule="welcome_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -889,9 +895,26 @@
                     <view key="view" contentMode="scaleToFill" id="1Dt-NK-FBn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5BA-zQ-ReA">
+                                <rect key="frame" x="20" y="85" width="560" height="115"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="1Rt-Ib-9lG"/>
+                                </constraints>
+                                <string key="text">In addition to all of our app install/usage analytics, you can also instrument your cloud code to see exactly how it's performing. Go to the stats section of the Studio and see if your device has been detected.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="5BA-zQ-ReA" secondAttribute="trailing" id="TaC-6f-QM8"/>
+                            <constraint firstItem="5BA-zQ-ReA" firstAttribute="top" secondItem="d6G-eN-ArK" secondAttribute="bottom" constant="21" id="eqw-JA-Ukf"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5BA-zQ-ReA" secondAttribute="leading" id="nvw-mo-ZBr"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="QJL-7S-Xix">
+                    <navigationItem key="navigationItem" title="Status" id="QJL-7S-Xix">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="CN8-Ph-F0F"/>
                     </navigationItem>
                     <connections>

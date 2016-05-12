@@ -17,7 +17,7 @@
 		48DF9E5F1CDCFC7C008E8334 /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */; };
 		48DF9E611CDCFCA6008E8334 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */; };
 		48DF9E631CDCFCC3008E8334 /* DataBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */; };
-		48DF9E651CDCFCF0008E8334 /* NaticeAppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */; };
+		48DF9E651CDCFCF0008E8334 /* NativeAppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E641CDCFCF0008E8334 /* NativeAppInfoViewController.swift */; };
 		48DF9E671CDCFD14008E8334 /* CloudIntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */; };
 		48DF9E691CDCFD2B008E8334 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */; };
 		A868916B5ED71BD1FB309B26 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADCF9C1A32DD65FC7417FBC /* Pods.framework */; };
@@ -36,7 +36,7 @@
 		48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
 		48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBrowserViewController.swift; sourceTree = "<group>"; };
-		48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaticeAppInfoViewController.swift; sourceTree = "<group>"; };
+		48DF9E641CDCFCF0008E8334 /* NativeAppInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAppInfoViewController.swift; sourceTree = "<group>"; };
 		48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudIntegrationViewController.swift; sourceTree = "<group>"; };
 		48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		4B7C3F63DC392B4D7613C071 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				48DF9E5E1CDCFC7C008E8334 /* PushNotificationViewController.swift */,
 				48DF9E601CDCFCA6008E8334 /* LocationViewController.swift */,
 				48DF9E621CDCFCC3008E8334 /* DataBrowserViewController.swift */,
-				48DF9E641CDCFCF0008E8334 /* NaticeAppInfoViewController.swift */,
+				48DF9E641CDCFCF0008E8334 /* NativeAppInfoViewController.swift */,
 				48DF9E661CDCFD14008E8334 /* CloudIntegrationViewController.swift */,
 				48DF9E681CDCFD2B008E8334 /* StatisticsViewController.swift */,
 				48022E6B1CDCE23A00F567B7 /* Assets.xcassets */,
@@ -240,7 +240,7 @@
 				48022E651CDCE23A00F567B7 /* AppDelegate.swift in Sources */,
 				48DF9E671CDCFD14008E8334 /* CloudIntegrationViewController.swift in Sources */,
 				48DF9E611CDCFCA6008E8334 /* LocationViewController.swift in Sources */,
-				48DF9E651CDCFCF0008E8334 /* NaticeAppInfoViewController.swift in Sources */,
+				48DF9E651CDCFCF0008E8334 /* NativeAppInfoViewController.swift in Sources */,
 				48DF9E5D1CDCFC1C008E8334 /* CallCloudViewController.swift in Sources */,
 				48022E7A1CDCE57400F567B7 /* HomeViewController.swift in Sources */,
 				48DF9E631CDCFCC3008E8334 /* DataBrowserViewController.swift in Sources */,

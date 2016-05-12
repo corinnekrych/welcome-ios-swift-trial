@@ -40,7 +40,7 @@ class CallCloudViewController: UIViewController {
                             return
                         }
                         if let parsedRes = resp.parsedResponse as? [String:String] {
-                            self.result.text = parsedRes["msg"]
+                            self.result.text = parsedRes["text"]
                         }
             })
         }
